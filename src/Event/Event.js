@@ -1,15 +1,12 @@
 import { Component } from "react";
+import EventList from "./EventList";
 
 
 class Event extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {  };
-  }
   render() {
     return (
       <>
-        Event
+        <EventList />
       </>
     );
   }
